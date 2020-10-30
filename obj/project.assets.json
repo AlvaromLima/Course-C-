@@ -2,6 +2,617 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "bootstrap/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "[3.0.0, 4.0.0)",
+          "popper.js": "[1.16.1, 2.0.0)"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "bootstrap.sass/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "[3.0.0, 4.0.0)",
+          "popper.js": "[1.16.1, 2.0.0)"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_alert.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_badge.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_breadcrumb.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_button-group.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_buttons.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_card.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_carousel.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_close.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_code.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_custom-forms.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_dropdown.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_forms.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_functions.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_grid.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_images.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_input-group.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_jumbotron.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_list-group.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_media.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_mixins.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_modal.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_nav.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_navbar.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_pagination.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_popover.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_print.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_progress.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_reboot.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_root.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_spinners.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_tables.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_toasts.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_tooltip.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_transitions.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_type.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_utilities.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/_variables.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/bootstrap-grid.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/bootstrap-reboot.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/bootstrap.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_alert.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_background-variant.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_badge.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_border-radius.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_box-shadow.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_breakpoints.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_buttons.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_caret.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_clearfix.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_deprecate.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_float.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_forms.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_gradients.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_grid-framework.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_grid.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_hover.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_image.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_list-group.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_lists.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_nav-divider.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_pagination.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_reset-text.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_resize.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_screen-reader.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_size.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_table-row.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_text-emphasis.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_text-hide.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_text-truncate.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_transition.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/mixins/_visibility.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_align.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_background.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_borders.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_clearfix.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_display.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_embed.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_flex.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_float.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_interactions.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_overflow.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_position.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_screenreaders.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_shadows.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_sizing.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_spacing.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_stretched-link.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_text.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/utilities/_visibility.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/scss/vendor/_rfs.scss": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "jQuery/3.0.0": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -974,6 +1585,9 @@
         "runtime": {
           "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
         }
+      },
+      "popper.js/1.16.1": {
+        "type": "package"
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
@@ -2783,6 +3397,291 @@
     }
   },
   "libraries": {
+    "bootstrap/4.5.3": {
+      "sha512": "KQvCPAvvWyDErmwn+VqTLE/9skJ7Ypt2EXfmU/YXQv+0jPjz5q8HH9xsbsVVVt+vlQd3fmE1SPLPxEVMOesTRg==",
+      "type": "package",
+      "path": "bootstrap/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "bootstrap.4.5.3.nupkg.sha512",
+        "bootstrap.nuspec",
+        "bootstrap.png",
+        "content/Content/bootstrap-grid.css",
+        "content/Content/bootstrap-grid.css.map",
+        "content/Content/bootstrap-grid.min.css",
+        "content/Content/bootstrap-grid.min.css.map",
+        "content/Content/bootstrap-reboot.css",
+        "content/Content/bootstrap-reboot.css.map",
+        "content/Content/bootstrap-reboot.min.css",
+        "content/Content/bootstrap-reboot.min.css.map",
+        "content/Content/bootstrap.css",
+        "content/Content/bootstrap.css.map",
+        "content/Content/bootstrap.min.css",
+        "content/Content/bootstrap.min.css.map",
+        "content/Scripts/bootstrap.bundle.js",
+        "content/Scripts/bootstrap.bundle.js.map",
+        "content/Scripts/bootstrap.bundle.min.js",
+        "content/Scripts/bootstrap.bundle.min.js.map",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.js.map",
+        "content/Scripts/bootstrap.min.js",
+        "content/Scripts/bootstrap.min.js.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
+      ]
+    },
+    "bootstrap.sass/4.5.3": {
+      "sha512": "JncLGsDxKPjMqokCBxXDiv/3EFZ80M5jcdySNmmVlkoF1llGkaWbcKPWBtNWqrB3BR97ALi3LXZ4XRk/gEIGqA==",
+      "type": "package",
+      "path": "bootstrap.sass/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "bootstrap.png",
+        "bootstrap.sass.4.5.3.nupkg.sha512",
+        "bootstrap.sass.nuspec",
+        "content/Content/bootstrap/_alert.scss",
+        "content/Content/bootstrap/_badge.scss",
+        "content/Content/bootstrap/_breadcrumb.scss",
+        "content/Content/bootstrap/_button-group.scss",
+        "content/Content/bootstrap/_buttons.scss",
+        "content/Content/bootstrap/_card.scss",
+        "content/Content/bootstrap/_carousel.scss",
+        "content/Content/bootstrap/_close.scss",
+        "content/Content/bootstrap/_code.scss",
+        "content/Content/bootstrap/_custom-forms.scss",
+        "content/Content/bootstrap/_dropdown.scss",
+        "content/Content/bootstrap/_forms.scss",
+        "content/Content/bootstrap/_functions.scss",
+        "content/Content/bootstrap/_grid.scss",
+        "content/Content/bootstrap/_images.scss",
+        "content/Content/bootstrap/_input-group.scss",
+        "content/Content/bootstrap/_jumbotron.scss",
+        "content/Content/bootstrap/_list-group.scss",
+        "content/Content/bootstrap/_media.scss",
+        "content/Content/bootstrap/_mixins.scss",
+        "content/Content/bootstrap/_modal.scss",
+        "content/Content/bootstrap/_nav.scss",
+        "content/Content/bootstrap/_navbar.scss",
+        "content/Content/bootstrap/_pagination.scss",
+        "content/Content/bootstrap/_popover.scss",
+        "content/Content/bootstrap/_print.scss",
+        "content/Content/bootstrap/_progress.scss",
+        "content/Content/bootstrap/_reboot.scss",
+        "content/Content/bootstrap/_root.scss",
+        "content/Content/bootstrap/_spinners.scss",
+        "content/Content/bootstrap/_tables.scss",
+        "content/Content/bootstrap/_toasts.scss",
+        "content/Content/bootstrap/_tooltip.scss",
+        "content/Content/bootstrap/_transitions.scss",
+        "content/Content/bootstrap/_type.scss",
+        "content/Content/bootstrap/_utilities.scss",
+        "content/Content/bootstrap/_variables.scss",
+        "content/Content/bootstrap/bootstrap-grid.scss",
+        "content/Content/bootstrap/bootstrap-reboot.scss",
+        "content/Content/bootstrap/bootstrap.scss",
+        "content/Content/bootstrap/mixins/_alert.scss",
+        "content/Content/bootstrap/mixins/_background-variant.scss",
+        "content/Content/bootstrap/mixins/_badge.scss",
+        "content/Content/bootstrap/mixins/_border-radius.scss",
+        "content/Content/bootstrap/mixins/_box-shadow.scss",
+        "content/Content/bootstrap/mixins/_breakpoints.scss",
+        "content/Content/bootstrap/mixins/_buttons.scss",
+        "content/Content/bootstrap/mixins/_caret.scss",
+        "content/Content/bootstrap/mixins/_clearfix.scss",
+        "content/Content/bootstrap/mixins/_deprecate.scss",
+        "content/Content/bootstrap/mixins/_float.scss",
+        "content/Content/bootstrap/mixins/_forms.scss",
+        "content/Content/bootstrap/mixins/_gradients.scss",
+        "content/Content/bootstrap/mixins/_grid-framework.scss",
+        "content/Content/bootstrap/mixins/_grid.scss",
+        "content/Content/bootstrap/mixins/_hover.scss",
+        "content/Content/bootstrap/mixins/_image.scss",
+        "content/Content/bootstrap/mixins/_list-group.scss",
+        "content/Content/bootstrap/mixins/_lists.scss",
+        "content/Content/bootstrap/mixins/_nav-divider.scss",
+        "content/Content/bootstrap/mixins/_pagination.scss",
+        "content/Content/bootstrap/mixins/_reset-text.scss",
+        "content/Content/bootstrap/mixins/_resize.scss",
+        "content/Content/bootstrap/mixins/_screen-reader.scss",
+        "content/Content/bootstrap/mixins/_size.scss",
+        "content/Content/bootstrap/mixins/_table-row.scss",
+        "content/Content/bootstrap/mixins/_text-emphasis.scss",
+        "content/Content/bootstrap/mixins/_text-hide.scss",
+        "content/Content/bootstrap/mixins/_text-truncate.scss",
+        "content/Content/bootstrap/mixins/_transition.scss",
+        "content/Content/bootstrap/mixins/_visibility.scss",
+        "content/Content/bootstrap/utilities/_align.scss",
+        "content/Content/bootstrap/utilities/_background.scss",
+        "content/Content/bootstrap/utilities/_borders.scss",
+        "content/Content/bootstrap/utilities/_clearfix.scss",
+        "content/Content/bootstrap/utilities/_display.scss",
+        "content/Content/bootstrap/utilities/_embed.scss",
+        "content/Content/bootstrap/utilities/_flex.scss",
+        "content/Content/bootstrap/utilities/_float.scss",
+        "content/Content/bootstrap/utilities/_interactions.scss",
+        "content/Content/bootstrap/utilities/_overflow.scss",
+        "content/Content/bootstrap/utilities/_position.scss",
+        "content/Content/bootstrap/utilities/_screenreaders.scss",
+        "content/Content/bootstrap/utilities/_shadows.scss",
+        "content/Content/bootstrap/utilities/_sizing.scss",
+        "content/Content/bootstrap/utilities/_spacing.scss",
+        "content/Content/bootstrap/utilities/_stretched-link.scss",
+        "content/Content/bootstrap/utilities/_text.scss",
+        "content/Content/bootstrap/utilities/_visibility.scss",
+        "content/Content/bootstrap/vendor/_rfs.scss",
+        "content/Scripts/bootstrap.bundle.js",
+        "content/Scripts/bootstrap.bundle.js.map",
+        "content/Scripts/bootstrap.bundle.min.js",
+        "content/Scripts/bootstrap.bundle.min.js.map",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.js.map",
+        "content/Scripts/bootstrap.min.js",
+        "content/Scripts/bootstrap.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map",
+        "contentFiles/any/any/wwwroot/scss/_alert.scss",
+        "contentFiles/any/any/wwwroot/scss/_badge.scss",
+        "contentFiles/any/any/wwwroot/scss/_breadcrumb.scss",
+        "contentFiles/any/any/wwwroot/scss/_button-group.scss",
+        "contentFiles/any/any/wwwroot/scss/_buttons.scss",
+        "contentFiles/any/any/wwwroot/scss/_card.scss",
+        "contentFiles/any/any/wwwroot/scss/_carousel.scss",
+        "contentFiles/any/any/wwwroot/scss/_close.scss",
+        "contentFiles/any/any/wwwroot/scss/_code.scss",
+        "contentFiles/any/any/wwwroot/scss/_custom-forms.scss",
+        "contentFiles/any/any/wwwroot/scss/_dropdown.scss",
+        "contentFiles/any/any/wwwroot/scss/_forms.scss",
+        "contentFiles/any/any/wwwroot/scss/_functions.scss",
+        "contentFiles/any/any/wwwroot/scss/_grid.scss",
+        "contentFiles/any/any/wwwroot/scss/_images.scss",
+        "contentFiles/any/any/wwwroot/scss/_input-group.scss",
+        "contentFiles/any/any/wwwroot/scss/_jumbotron.scss",
+        "contentFiles/any/any/wwwroot/scss/_list-group.scss",
+        "contentFiles/any/any/wwwroot/scss/_media.scss",
+        "contentFiles/any/any/wwwroot/scss/_mixins.scss",
+        "contentFiles/any/any/wwwroot/scss/_modal.scss",
+        "contentFiles/any/any/wwwroot/scss/_nav.scss",
+        "contentFiles/any/any/wwwroot/scss/_navbar.scss",
+        "contentFiles/any/any/wwwroot/scss/_pagination.scss",
+        "contentFiles/any/any/wwwroot/scss/_popover.scss",
+        "contentFiles/any/any/wwwroot/scss/_print.scss",
+        "contentFiles/any/any/wwwroot/scss/_progress.scss",
+        "contentFiles/any/any/wwwroot/scss/_reboot.scss",
+        "contentFiles/any/any/wwwroot/scss/_root.scss",
+        "contentFiles/any/any/wwwroot/scss/_spinners.scss",
+        "contentFiles/any/any/wwwroot/scss/_tables.scss",
+        "contentFiles/any/any/wwwroot/scss/_toasts.scss",
+        "contentFiles/any/any/wwwroot/scss/_tooltip.scss",
+        "contentFiles/any/any/wwwroot/scss/_transitions.scss",
+        "contentFiles/any/any/wwwroot/scss/_type.scss",
+        "contentFiles/any/any/wwwroot/scss/_utilities.scss",
+        "contentFiles/any/any/wwwroot/scss/_variables.scss",
+        "contentFiles/any/any/wwwroot/scss/bootstrap-grid.scss",
+        "contentFiles/any/any/wwwroot/scss/bootstrap-reboot.scss",
+        "contentFiles/any/any/wwwroot/scss/bootstrap.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_alert.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_background-variant.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_badge.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_border-radius.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_box-shadow.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_breakpoints.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_buttons.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_caret.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_clearfix.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_deprecate.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_float.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_forms.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_gradients.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_grid-framework.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_grid.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_hover.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_image.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_list-group.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_lists.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_nav-divider.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_pagination.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_reset-text.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_resize.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_screen-reader.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_size.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_table-row.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_text-emphasis.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_text-hide.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_text-truncate.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_transition.scss",
+        "contentFiles/any/any/wwwroot/scss/mixins/_visibility.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_align.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_background.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_borders.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_clearfix.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_display.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_embed.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_flex.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_float.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_interactions.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_overflow.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_position.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_screenreaders.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_shadows.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_sizing.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_spacing.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_stretched-link.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_text.scss",
+        "contentFiles/any/any/wwwroot/scss/utilities/_visibility.scss",
+        "contentFiles/any/any/wwwroot/scss/vendor/_rfs.scss"
+      ]
+    },
+    "jQuery/3.0.0": {
+      "sha512": "xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "type": "package",
+      "path": "jquery/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.0.0-vsdoc.js",
+        "Content/Scripts/jquery-3.0.0.js",
+        "Content/Scripts/jquery-3.0.0.min.js",
+        "Content/Scripts/jquery-3.0.0.min.map",
+        "Content/Scripts/jquery-3.0.0.slim.js",
+        "Content/Scripts/jquery-3.0.0.slim.min.js",
+        "Content/Scripts/jquery-3.0.0.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.0.0.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.0.0.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -4346,6 +5245,108 @@
         "lib/netstandard2.0/Pomelo.JsonObject.dll",
         "pomelo.jsonobject.2.2.1.nupkg.sha512",
         "pomelo.jsonobject.nuspec"
+      ]
+    },
+    "popper.js/1.16.1": {
+      "sha512": "6GiVZho0vwBnId7pK7NLTjMGq4F0/VE65I08CCeKlarVoUt1w8SGTtJmhNo/0pK38EGUP/xbT4+OkWB8UTMPBw==",
+      "type": "package",
+      "path": "popper.js/1.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/README.md",
+        "content/Scripts/esm/popper-utils.js",
+        "content/Scripts/esm/popper-utils.js.map",
+        "content/Scripts/esm/popper-utils.min.js",
+        "content/Scripts/esm/popper-utils.min.js.map",
+        "content/Scripts/esm/popper.js",
+        "content/Scripts/esm/popper.js.map",
+        "content/Scripts/esm/popper.min.js",
+        "content/Scripts/esm/popper.min.js.map",
+        "content/Scripts/index.d.ts",
+        "content/Scripts/index.js.flow",
+        "content/Scripts/popper-utils.js",
+        "content/Scripts/popper-utils.js.map",
+        "content/Scripts/popper-utils.min.js",
+        "content/Scripts/popper-utils.min.js.map",
+        "content/Scripts/popper.js",
+        "content/Scripts/popper.js.map",
+        "content/Scripts/popper.min.js",
+        "content/Scripts/popper.min.js.map",
+        "content/Scripts/src/index.js",
+        "content/Scripts/src/methods/defaults.js",
+        "content/Scripts/src/methods/destroy.js",
+        "content/Scripts/src/methods/disableEventListeners.js",
+        "content/Scripts/src/methods/enableEventListeners.js",
+        "content/Scripts/src/methods/placements.js",
+        "content/Scripts/src/methods/update.js",
+        "content/Scripts/src/modifiers/applyStyle.js",
+        "content/Scripts/src/modifiers/arrow.js",
+        "content/Scripts/src/modifiers/computeStyle.js",
+        "content/Scripts/src/modifiers/flip.js",
+        "content/Scripts/src/modifiers/hide.js",
+        "content/Scripts/src/modifiers/index.js",
+        "content/Scripts/src/modifiers/inner.js",
+        "content/Scripts/src/modifiers/keepTogether.js",
+        "content/Scripts/src/modifiers/offset.js",
+        "content/Scripts/src/modifiers/preventOverflow.js",
+        "content/Scripts/src/modifiers/shift.js",
+        "content/Scripts/src/utils/clockwise.js",
+        "content/Scripts/src/utils/computeAutoPlacement.js",
+        "content/Scripts/src/utils/debounce.js",
+        "content/Scripts/src/utils/find.js",
+        "content/Scripts/src/utils/findCommonOffsetParent.js",
+        "content/Scripts/src/utils/findIndex.js",
+        "content/Scripts/src/utils/getBordersSize.js",
+        "content/Scripts/src/utils/getBoundaries.js",
+        "content/Scripts/src/utils/getBoundingClientRect.js",
+        "content/Scripts/src/utils/getClientRect.js",
+        "content/Scripts/src/utils/getFixedPositionOffsetParent.js",
+        "content/Scripts/src/utils/getOffsetParent.js",
+        "content/Scripts/src/utils/getOffsetRect.js",
+        "content/Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js",
+        "content/Scripts/src/utils/getOppositePlacement.js",
+        "content/Scripts/src/utils/getOppositeVariation.js",
+        "content/Scripts/src/utils/getOuterSizes.js",
+        "content/Scripts/src/utils/getParentNode.js",
+        "content/Scripts/src/utils/getPopperOffsets.js",
+        "content/Scripts/src/utils/getReferenceNode.js",
+        "content/Scripts/src/utils/getReferenceOffsets.js",
+        "content/Scripts/src/utils/getRoot.js",
+        "content/Scripts/src/utils/getRoundedOffsets.js",
+        "content/Scripts/src/utils/getScroll.js",
+        "content/Scripts/src/utils/getScrollParent.js",
+        "content/Scripts/src/utils/getStyleComputedProperty.js",
+        "content/Scripts/src/utils/getSupportedPropertyName.js",
+        "content/Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js",
+        "content/Scripts/src/utils/getWindow.js",
+        "content/Scripts/src/utils/getWindowSizes.js",
+        "content/Scripts/src/utils/includeScroll.js",
+        "content/Scripts/src/utils/index.js",
+        "content/Scripts/src/utils/isBrowser.js",
+        "content/Scripts/src/utils/isFixed.js",
+        "content/Scripts/src/utils/isFunction.js",
+        "content/Scripts/src/utils/isIE.js",
+        "content/Scripts/src/utils/isModifierEnabled.js",
+        "content/Scripts/src/utils/isModifierRequired.js",
+        "content/Scripts/src/utils/isNumeric.js",
+        "content/Scripts/src/utils/isOffsetContainer.js",
+        "content/Scripts/src/utils/removeEventListeners.js",
+        "content/Scripts/src/utils/runModifiers.js",
+        "content/Scripts/src/utils/setAttributes.js",
+        "content/Scripts/src/utils/setStyles.js",
+        "content/Scripts/src/utils/setupEventListeners.js",
+        "content/Scripts/umd/popper-utils.js",
+        "content/Scripts/umd/popper-utils.js.map",
+        "content/Scripts/umd/popper-utils.min.js",
+        "content/Scripts/umd/popper-utils.min.js.map",
+        "content/Scripts/umd/popper.js",
+        "content/Scripts/umd/popper.js.flow",
+        "content/Scripts/umd/popper.js.map",
+        "content/Scripts/umd/popper.min.js",
+        "content/Scripts/umd/popper.min.js.map",
+        "popper.js.1.16.1.nupkg.sha512",
+        "popper.js.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -8826,7 +9827,9 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "Pomelo.EntityFrameworkCore.MySql >= 3.2.3"
+      "Pomelo.EntityFrameworkCore.MySql >= 3.2.3",
+      "bootstrap >= 4.5.3",
+      "bootstrap.sass >= 4.5.3"
     ]
   },
   "packageFolders": {
@@ -8891,6 +9894,14 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[3.2.3, )"
+          },
+          "bootstrap": {
+            "target": "Package",
+            "version": "[4.5.3, )"
+          },
+          "bootstrap.sass": {
+            "target": "Package",
+            "version": "[4.5.3, )"
           }
         },
         "imports": [
