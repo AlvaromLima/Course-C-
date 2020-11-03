@@ -180,3 +180,4 @@ C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.csproj.CoreCom
 C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.MvcApplicationPartsAssemblyInfo.cache
 C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Index.cshtml.g.cs
 C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Delete.cshtml.g.cs
