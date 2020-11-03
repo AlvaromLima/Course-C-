@@ -178,3 +178,4 @@ C:\temp\ws-vs2019\SalesWebMvc\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore
 C:\temp\ws-vs2019\SalesWebMvc\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.csproj.CoreCompileInputs.cache
 C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.MvcApplicationPartsAssemblyInfo.cache
+C:\temp\ws-vs2019\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Index.cshtml.g.cs
