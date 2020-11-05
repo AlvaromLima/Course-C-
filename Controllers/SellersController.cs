@@ -117,14 +117,28 @@ namespace SalesWebMvc.Controllers
         // Sincrona
         //public IActionResult Delete(int id)
         //{
+        //  try
+        //  {
         //    _sellerService.Remove(id);
         //    return RedirectToAction(nameof(Index));
+        //  }
+        //  catch (IntegrityException e )
+        //  {
+        //    return RedirectToAction(nameof(Error), new { message = e.Message});
+        //  }
         //}
         // Assincrona
         public async Task<IActionResult> Delete(int id)
         {
-            await _sellerService.RemoveAsync(id);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                await _sellerService.RemoveAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch ( IntegrityException e )
+            {
+                return RedirectToAction(nameof(Error), new { message = e.Message });
+            }
         }
 
         // Sincrona
